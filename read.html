@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap 3</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+
+	<script src = "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src = "js/bootstrap.js"></script>
+</head>
+<body>
+	<div class="navbar navbar-inverse navbar-static-top">
+		<div class="container">
+			<a href="#" class="navbar-brand">Tech site</a>
+			<button class = "navbar-toggle" data-toggle = "collapse" data-target = ".navHeaderCollapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+
+			<div class="collapse navbar-collapse navHeaderCollapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li><a class="active" href="#">Home</a></li>
+					<li><a href="#">Blog</a></li>
+					<li class="dropdown">
+						<a href="" class="dropdown-toogle" data-toggle="dropdown">Social Media <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Twitter</a></li>
+							<li><a href="#">Facebook</a></li>
+							<li><a href="#">Google+</a></li>
+							<li><a href="#">Instagram</a></li>
+						</ul>
+					</li>
+					<li><a href="#">About</a></li>
+					<li><a href="#contact" data-toggle="modal">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</div><!--End div nav-->
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-9">
+				<div class="panel panel-default">
+					<div class="panel-body">
+						<div class="page-header">
+							<h3>Iphone 5 performance review <small>Posted by Kienpt 23 12 2014</small></h3>
+						</div>
+
+						<div class="page-body">
+							<img class="featureImg" src="img/iphone5-1.jpeg" width="100%">
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+							<h4>Customer design</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+							<h4>The Specs</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+							<h4>IOS 8 ?</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+							quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+							consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+							cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+							proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+						</div>
+					</div>
+				</div>
+			</div> <!--End class col-lg-9-->
+			<div class="col-lg-3">
+				<div class="list-group">
+					<a href="#" class="list-group-item active">
+						<h4 class="list-group-item-heading">Lorem ipsum</h4>
+						<p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. </p>
+					</a>
+
+					<a href="#" class="list-group-item">
+						<h4 class="list-group-item-heading">Lorem ipsum</h4>
+						<p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat.</p>
+					</a>
+
+					<a href="#" class="list-group-item">
+						<h4 class="list-group-item-heading">Lorem ipsum</h4>
+						<p class="list-group-item-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur.</p>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="navbar navbar-default navbar-fixed-bottom">
+		<div class="container">
+			<p class="navbar-text pull-left">Site built by Kienpt</p>
+			<a href="" class="navbar-btn btn btn-danger pull-right"> Subscribe on Youtube</a>
+		</div>
+	</div>
+
+	<div class="modal fade" id="contact" role="dialog">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="header">
+					<h4>Contact Tech Site</h4>
+				</div>
+				<div class="modal-body">
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
+				<div class="modal-footer">
+					<a href="#" class="btn btn-default" data-dismiss="modal">Close</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
